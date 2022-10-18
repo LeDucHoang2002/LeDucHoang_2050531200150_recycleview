@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements UsersAdapter.Sele
 
     List<UserModel> userModelList = new ArrayList<>();
 
-    String[] names = {"Richard","Alice","Hannah","David"};
+    String[] names = {"Lê Đức Hoàng","2050531200150","Nguyễn Văn A","Trần Văn C","Đổ Thị B"};
 
     UsersAdapter usersAdapter;
 
