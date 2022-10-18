@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mau2"
+    tools:context=".SelectedUserActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/purple_200"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected User"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/selectedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected User"
+        android:textColor="@color/purple_500"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        />
+</RelativeLayout>
